@@ -1,0 +1,8 @@
+docker container ls --all
+
+docker start mysql
+
+User
+	root/psw
+	
+	webApp/webApp

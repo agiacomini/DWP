@@ -1,0 +1,26 @@
+Project SetUp
+
+	1- Add Hibernate Dependency in POM.xml file
+	
+		<artifactId>hibernate-core</artifactId>
+		
+		<artifactId>hibernate-validator</artifactId>
+		
+		<artifactId>hibernate-commons-annotations</artifactId>
+		
+		<artifactId>hibernate-jpa-2.1-api</artifactId>
+		
+		<artifactId>hibernate-entitymanager</artifactId>
+		
+	2- Add DataBase Connector
+	
+		<artifactId>mysql-connector-java</artifactId> 
+
+Configuration Project
+
+	1- Hibernate:
+	
+		1- Hibernate configuration file hibernate.cfg.xml
+		
+		2- Hibernate mapping file 
+	

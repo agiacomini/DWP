@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<hibernate-mapping>
+    <class name="main.java.andr3a.giacomini.com.beans.pojo.ProjectNameUser" table="PROJECTNAME_USER">
+        <id name="id" type="int" column="ID">
+            <generator class="assigned"/>
+        </id>
+        <property name="firstName">
+            <column name="FIRSTNAME"/>
+        </property>
+        <property name="lastName">
+            <column name="LASTNAME"/>
+        </property>
+        <property name="userName">
+            <column name="USERNAME"/>
+        </property>
+        <property name="userPassword">
+            <column name="USERPASSWORD"/>
+        </property>
+        <property name="enabled">
+            <column name="ENABLED"/>
+        </property>
+        <property name="phone">
+            <column name="PHONE"/>
+        </property>
+        <property name="email">
+            <column name="EMAIL"/>
+        </property>
+        <property name="created" type="date">
+            <column name="CREATED"/>
+        </property>
+        <property name="createdBy">
+            <column name="CREATEDBY"/>
+        </property>
+        <property name="lastCreated" type="date">
+            <column name="LASTCREATED"/>
+        </property>
+        <property name="lastCreatedBy">
+            <column name="LASTCREATEDBY"/>
+        </property>
+    </class>
+</hibernate-mapping>
